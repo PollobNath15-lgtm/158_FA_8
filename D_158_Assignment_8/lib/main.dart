@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            // Top Row (1, 2, 3)
+            
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -54,7 +54,6 @@ class HomePage extends StatelessWidget {
               ],
             ),
 
-            // Large Container
             Container(
               width: double.infinity,
               height: 100,
@@ -66,7 +65,6 @@ class HomePage extends StatelessWidget {
               ),
             ),
 
-            // Bottom Row (Left, Right)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
